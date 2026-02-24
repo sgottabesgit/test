@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root & Reverie</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Above+The+Beyond+Script&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --sage: #7A816C;
+            --dusty-rose: #D1A9A5;
+            --clay: #AE6965;
+            --sand: #A58B71;
+            --linen: #E5DFD6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--linen);
+            color: var(--sage);
+            font-family: Georgia, serif;
+            line-height: 1.8;
+        }
+
+        .brand {
+            font-family: 'Above The Beyond Script', cursive;
+            font-size: 3.5rem;
+            letter-spacing: 2px;
+        }
+
+        header {
+            background-color: var(--sage);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .tagline {
+            font-style: italic;
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: var(--sand);
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: 600;
+        }
+
+        section {
+            padding: 5rem 2rem;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        h2 {
+            font-family: 'Above The Beyond Script', cursive;
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .lead {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: var(--dusty-rose);
+            margin: 3rem 0;
+        }
+
+        .highlight {
+            background-color: white;
+            padding: 2rem;
+            border-left: 4px solid var(--clay);
+            margin: 2rem 0;
+        }
+
+        .values {
+            margin-top: 2rem;
+        }
+
+        .values p {
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 4rem 2rem;
+            background-color: white;
+        }
+
+        button {
+            background-color: var(--dusty-rose);
+            border: none;
+            padding: 1rem 2.5rem;
+            color: white;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: var(--clay);
+        }
+
+        footer {
+            background-color: var(--sage);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .brand {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">Root & Reverie</div>
+        <div class="tagline">Strength anchored in stillness.</div>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>About</h2>
+
+        <p class="lead">
+            Root & Reverie is a movement and massage studio devoted to restoration, resilience, and sustainable strength
+            — for every body.
+        </p>
+
+        <p>
+            We believe healing doesn’t have to be aggressive. Strength doesn’t have to be performative. And rest is not
+            something you earn — it is foundational.
+        </p>
+
+        <div class="divider"></div>
+
+        <div class="highlight">
+            <p><strong>Root</strong> represents stability — the body, the nervous system, the structures that support
+                us.</p>
+            <p><strong>Reverie</strong> represents space — the pause, the breath, the return to self.</p>
+        </div>
+
+        <p>
+            Here, evidence-informed practice meets intuitive care. Massage therapy, mindful yoga, and intentional
+            strength training are integrated to support the whole person — not just isolated symptoms.
+        </p>
+
+        <div class="values">
+            <p>Anatomy-informed and evidence-based</p>
+            <p>Nervous-system aware</p>
+            <p>Trauma-informed</p>
+            <p>Designed for longevity, not burnout</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <p>
+            We support people navigating stress, injury, chronic tension, performance goals, life transitions, and
+            everything in between. Athletes. Professionals. Parents. Students. Those rebuilding. Those refining. Those
+            simply needing to exhale.
+        </p>
+
+        <p>
+            At Root & Reverie, you don’t have to choose between strength and softness.
+            You can build capacity and cultivate calm.
+        </p>
+
+        <p>
+            You can restore deeply and move intentionally.
+            You can root down — and rise steadily.
+        </p>
+    </section>
+
+    <section class="cta">
+        <h2>Begin Your Practice</h2>
+        <button>Book a Session</button>
+    </section>
+
+    <footer>
+        © 2026 Root & Reverie — Strength anchored in stillness.
+    </footer>
+
+</body>
+
+</html>
