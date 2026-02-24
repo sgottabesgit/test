@@ -1,0 +1,82 @@
+:root {
+    --sage: #7A816C;
+    --dusty-rose: #D1A9A5;
+    --clay: #AE6965;
+    --sand: #A58B71;
+    --linen: #E5DFD6;
+}
+
+body {
+    background-color: var(--linen);
+    color: var(--sage);
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+.brand {
+    font-family: 'Above The Beyond Script', cursive;
+    font-size: 3rem;
+}
+
+header {
+    background-color: var(--sage);
+    color: white;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--sand);
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+section {
+    padding: 4rem 2rem;
+    max-width: 850px;
+    margin: auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+h2 {
+    font-family: 'Above The Beyond Script', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.highlight {
+    background: white;
+    padding: 2rem;
+    border-left: 4px solid var(--clay);
+    margin: 2rem 0;
+}
+
+button {
+    background-color: var(--dusty-rose);
+    border: none;
+    padding: 0.8rem 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--clay);
+}
+
+footer {
+    background-color: var(--sage);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
