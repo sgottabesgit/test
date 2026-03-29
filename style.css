@@ -1,16 +1,26 @@
 :root {
+    /* pink palette */
+    --blush: #F3E4E1;
+    --soft-rose: #E3C1BC;
+    --rose: #D1A9A5;
+    --mauve: #B87C78;
+    --deep-rose: #8F5A57;
+
+    /* bring sage BACK */
     --sage: #7A816C;
-    --dusty-rose: #D1A9A5;
-    --clay: #AE6965;
-    --sand: #A58B71;
-    --linen: #E5DFD6;
+    --sage-soft: #A3AA98;
+
+    /* base */
+    --linen: #FAF6F5;
 }
 
 body {
     background-color: var(--linen);
     color: var(--sage);
+    /* ← back to grounded text */
     font-family: Georgia, serif;
     margin: 0;
+    letter-spacing: 0.4px;
 }
 
 .brand {
@@ -19,14 +29,15 @@ body {
 }
 
 header {
-    background-color: var(--sage);
+    background: linear-gradient(135deg, var(--rose), var(--mauve));
     color: white;
     padding: 2.5rem;
     text-align: center;
 }
 
 nav {
-    background-color: var(--sand);
+    background-color: var(--sage);
+    /* ← sage used intentionally */
     text-align: center;
     padding: 1rem;
 }
@@ -36,6 +47,11 @@ nav a {
     margin: 0 1.5rem;
     text-decoration: none;
     font-weight: 600;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    opacity: 0.75;
 }
 
 section {
@@ -47,35 +63,44 @@ section {
 .hero {
     text-align: center;
     padding: 6rem 2rem;
+    background: linear-gradient(to bottom, var(--blush), var(--soft-rose));
 }
 
 h2 {
     font-family: 'Above The Beyond Script', cursive;
     font-size: 2rem;
     text-align: center;
+    color: var(--deep-rose);
+    /* subtle pink accent */
 }
 
 .highlight {
     background: white;
     padding: 2rem;
-    border-left: 4px solid var(--clay);
+    border-left: 4px solid var(--sage);
+    /* ← sage accent */
     margin: 2rem 0;
 }
 
 button {
-    background-color: var(--dusty-rose);
+    background: linear-gradient(135deg, var(--rose), var(--mauve));
     border: none;
-    padding: 0.8rem 2rem;
+    padding: 0.9rem 2.2rem;
     color: white;
     cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
 }
 
 button:hover {
-    background-color: var(--clay);
+    background: var(--deep-rose);
+    transform: translateY(-2px);
 }
 
 footer {
     background-color: var(--sage);
+    /* ← grounded ending */
     color: white;
     text-align: center;
     padding: 2rem;
